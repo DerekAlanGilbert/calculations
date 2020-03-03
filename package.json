@@ -1,11 +1,19 @@
 {
   "name": "calculations",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Typescript implementation of real estate calculations",
+  "main": "lib/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel watch lib/index.ts",
+    "build:prod": "parcel build lib/index.ts"
   },
-  "author": "",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+      "url": "https://github.com/derekalangilbert/calculations.git"
+    },
+  "author": "Derek Alan Gilbert",
   "license": "ISC"
 }

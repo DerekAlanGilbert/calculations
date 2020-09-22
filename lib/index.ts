@@ -1,3 +1,7 @@
-export default function(){
-  return console.log('hi')
+import loans from './loans'
+
+
+export {
+  loans
 }
+  

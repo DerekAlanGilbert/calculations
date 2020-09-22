@@ -1,9 +1,9 @@
-const downPayment = (amount: number, interestRate: number ): number => {
+const monthlyPayment = (amount: number, down: number, length: number, interestRate: number ): number => {
     return 5
 }
 
 const loans = {
-    downPayment
+    monthlyPayment
   }
   
 
